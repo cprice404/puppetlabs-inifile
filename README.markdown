@@ -1,5 +1,10 @@
 [![Build Status](https://travis-ci.org/cprice-puppet/puppetlabs-inifile.png?branch=master)](https://travis-ci.org/cprice-puppet/puppetlabs-inifile)
 
+
+# NOTE: this module has been moved to the [Puppet Labs](https://github.com/puppetlabs/puppetlabs-inifile) namespace.
+
+------------------------------------------------------------------------------------------------------------
+
 # INI-file module #
 
 This module provides resource types for use in managing INI-style configuration
