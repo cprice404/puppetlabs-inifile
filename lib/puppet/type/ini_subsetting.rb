@@ -7,6 +7,10 @@ Puppet::Type.newtype(:ini_subsetting) do
 
   newparam(:name, :namevar => true) do
     desc 'An arbitrary name used as the identity of the resource.'
+    validate do |value|
+      Puppet.warning("cprice404-inifile is deprecated; please update to puppetlabs-inifile")
+      true
+    end
   end
 
   newparam(:section) do
